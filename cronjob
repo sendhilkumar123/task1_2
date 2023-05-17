@@ -1,0 +1,16 @@
+I want to create 1 text file(file.txt) in desired folder(prvn) using crontab by executing bash script(test.sh).
+my script file is located on praveen directory.
+Ex:
+1)April 5th Midnight
+0 0 5 04 * /bin/sh /home/ubuntu/praveen/test.sh
+2)5 th of Every November,Jan,June if it is a Thursday.
+* * 5 11/01/06 5 /bin/sh /home/ubuntu/praveen/test.sh
+3)At 05 and 27th minutes of 9,10,11 hours everyday. 
+05/27 09/10/11 * * * /bin/sh /home/ubuntu/praveen/test.sh
+4)15th second of 34 min. of 9th hour on 15th Aug.
+15 34 09 15 07 * /bin/sh /home/ubuntu/praveen/test.sh
+5)Every midnight
+0 0 * * * /bin/sh /home/ubuntu/praveen/test.sh
+6)Every Weekend ( Saturday night 11.59)
+59 11 * * 07  /bin/sh /home/ubuntu/praveen/test.sh
+
